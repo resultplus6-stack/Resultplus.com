@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Result Plus</title>
+
+<style>
+body{
+  margin:0;
+  font-family: Arial;
+  background:#eef3f9;
+}
+
+/* Header */
+.header{
+  background:linear-gradient(90deg,#0d47a1,#1976d2);
+  color:white;
+  text-align:center;
+  padding:18px;
+}
+.header h1{margin:0;}
+.header p{margin:5px 0;}
+
+/* Navbar */
+.nav{
+  background:#0d47a1;
+  display:flex;
+  flex-wrap:wrap;
+}
+.nav a{
+  color:white;
+  padding:12px 15px;
+  text-decoration:none;
+}
+.nav a:hover{
+  background:#1976d2;
+}
+
+/* Notice */
+.notice{
+  background:#e3f2fd;
+  padding:10px;
+  text-align:center;
+  font-weight:bold;
+  color:#0d47a1;
+}
+
+/* Links */
+.links{
+  text-align:center;
+  background:#ffffff;
+  padding:10px;
+}
+.links a{
+  margin:5px;
+  color:#0d47a1;
+  text-decoration:none;
+  font-size:14px;
+}
+.links a:hover{
+  text-decoration:underline;
+}
+
+/* Boxes */
+.box-container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin:10px;
+}
+.box{
+  width:45%;
+  margin:5px;
+  padding:12px;
+  color:white;
+  text-align:center;
+  font-weight:bold;
+  border-radius:8px;
+  transition:0.3s;
+}
+.box:hover{
+  transform:scale(1.05);
+}
+.red{background:#d32f2f;}
+.blue{background:#1976d2;}
+.green{background:#388e3c;}
+.orange{background:#f57c00;}
+.pink{background:#c2185b;}
+.purple{background:#7b1fa2;}
+
+/* Section */
+.section{
+  display:flex;
+  flex-wrap:wrap;
+  margin:10px;
+}
+.card{
+  width:100%;
+  background:white;
+  margin:5px;
+  border-radius:8px;
+  overflow:hidden;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+.card h3{
+  background:#0d47a1;
+  color:white;
+  padding:10px;
+  margin:0;
+}
+.card ul{
+  padding:15px;
+}
+.card li{
+  margin-bottom:8px;
+  transition:0.2s;
+}
+.card li:hover{
+  color:#1976d2;
+}
+
+/* Footer */
+.footer{
+  background:#0d47a1;
+  color:white;
+  text-align:center;
+  padding:10px;
+  margin-top:20px;
+}
+
+/* Desktop */
+@media(min-width:768px){
+  .box{width:23%;}
+  .card{width:32%;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>RESULT PLUS</h1>
+  <p>WWW.RESULTPLUS.COM</p>
+</div>
+
+<div class="nav">
+  <a href="#">Home</a>
+  <a href="#">Latest Jobs</a>
+  <a href="#">Results</a>
+  <a href="#">Admit Card</a>
+  <a href="#">Answer Key</a>
+  <a href="#">Syllabus</a>
+  <a href="#">Contact</a>
+</div>
+
+<div class="notice">
+  🔥 Welcome to Result Plus – Latest Jobs, Results & Updates
+</div>
+
+<div class="links">
+  <a href="#">Bihar Board Result 2026</a> |
+  <a href="#">SSC CGL Online Form</a> |
+  <a href="#">Railway Vacancy</a> |
+  <a href="#">NEET Admit Card</a>
+</div>
+
+<div class="box-container">
+  <div class="box green">Apply Online</div>
+  <div class="box blue">Admit Card</div>
+  <div class="box red">Latest Jobs</div>
+  <div class="box orange">Answer Key</div>
+  <div class="box pink">Admission</div>
+  <div class="box purple">Syllabus</div>
+</div>
+
+<div class="section">
+
+  <div class="card">
+    <h3>Results</h3>
+    <ul>
+      <li>Bihar Board 12th Result 2026</li>
+      <li>SSC GD Result</li>
+      <li>Railway Group D Result</li>
+      <li>UP Police Result</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Admit Card</h3>
+    <ul>
+      <li>SSC CGL Admit Card</li>
+      <li>Railway Admit Card</li>
+      <li>UP Police Admit Card</li>
+      <li>NEET Admit Card</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Latest Jobs</h3>
+    <ul>
+      <li>SSC CGL Vacancy 2026</li>
+      <li>Railway Vacancy 2026</li>
+      <li>Bihar Police Vacancy</li>
+      <li>Army Recruitment</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="footer">
+  © 2026 Result Plus | All Rights Reserved
+</div>
+
+</body>
+</html>
